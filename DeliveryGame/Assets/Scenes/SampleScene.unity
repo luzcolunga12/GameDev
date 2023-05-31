@@ -176,7 +176,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.205069
+  orthographic size: 20.852524
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -200,8 +200,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.57, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.8, y: -1.26, z: -10}
+  m_LocalScale: {x: 1, y: 1.575, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -237,6 +237,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16f6d8141cdd564990847e54e668cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  steerSpeed: 0.9
+  moveSpeed: 0.05
 --- !u!212 &775388775
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -296,11 +298,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775388773}
-  m_LocalRotation: {x: -0, y: -0, z: 0.71050614, w: 0.703691}
-  m_LocalPosition: {x: -6.83, y: -0.03, z: 0}
-  m_LocalScale: {x: 5.0570383, y: 1.72694, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6814, y: -1.989, z: 0}
+  m_LocalScale: {x: 2.3628, y: 4.978, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.552}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
