@@ -1,2 +1,2 @@
 # GameDev
-Game Development learning stuff in Unity, learning the essentials 
+Game Development learning stuff in Unity, the essentials 
